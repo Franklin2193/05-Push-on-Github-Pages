@@ -1,0 +1,74 @@
+body{
+  padding: 10px;
+  margin: 5px;
+  color: black;
+  background-color: #d9faaa;
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  line-height: 1.5;
+}
+h1 {
+    text-align: center;
+    background-color: black;
+    color: blueviolet;
+    padding: 5px;
+    border-radius: 50px;
+}
+
+nav ul {
+  background-color: yellowgreen;
+  width: 100%;
+  list-style-type: none;
+  text-align: center;
+  border-radius: 50px;
+  border: 3px solid rgb(120, 8, 224);
+}
+nav li {
+    display: inline-flex;
+}
+nav a {
+    font-family: 'Raleway', sans-serif;
+    color: rgb(110, 8, 206);
+    padding: 10px;
+    width: 150px;
+    border-radius: 50px;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+nav li:hover {
+    background-color: black;
+    border-radius: 50px;
+    border: 1px solid blueviolet;
+}
+.container {
+  text-align: center;
+  padding: 30px;
+  width: 700px;
+  margin: 0px auto;
+  color: black;
+}
+.text1 {
+  text-align: center;
+  background: yellowgreen;
+  padding: 30px;
+  border: 2px solid green;
+  width: 60%;
+  margin: 0 auto;
+  border-radius: 10px;
+  font-family: 'Raleway', sans-serif;
+}
+img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50px;
+  object-fit: cover;
+  font-weight: 100px;
+
+}
+.card2 {
+  text-align: center;
+  padding: 30px;
+  width: 50%;
+  margin: 0 auto;
+  color: blueviolet;
+}
